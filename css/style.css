@@ -8,6 +8,7 @@
 /* COMMON */
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 0.7rem;
     /* DEBUG */
     background-color: grey;
 }
@@ -28,7 +29,7 @@ ul{
     display: flex;
 }
 .container-big{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     max-width: 1200px;
     /* DEBUG */
@@ -36,7 +37,7 @@ ul{
     /* background-color: blueviolet; */
 }
 .container-small{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     max-width: 1000px;
     /* DEBUG */
@@ -46,7 +47,19 @@ ul{
 h2{
     margin: 1.5rem 0;
 }
-
+.button{
+    color: white;
+    padding: 0.5em 1.5em;
+    background-color:#0061ff;
+}
+.button.large{
+    display: inline-block;
+    margin: 2rem 0;
+}
+.arrow{
+   margin-top: 8rem;
+    
+}
 /* HEADER */
 .header-nav{
     height: 60px;
@@ -56,31 +69,51 @@ h2{
     width: 100%;
     z-index: 999;
     padding: 0 1rem;
+    line-height: 60px;
     justify-content: space-between;
-    align-items: center;
+    
     /* DEBUG */
     background-color:white ;
 
 }
+.nav-left li:not(:first-child){
+    margin-left: 1.5rem;
+}
+.nav-right li:not(:last-child){
+    margin-right: 2rem;
+}
+.nav-left ul{
+    align-items: center;
+}
+.logo-header{
+    transform:scale(0.8);
+    vertical-align: middle;
+}
+
 .jumbotron{
+    padding-top: 3rem;
     background-color: #b4d0e7;
    
+}
+h1{
+    font-size: 3rem;
+    font-weight: bold;
 }
     
 
 header .container-big{
    padding-top: 50px;
-    position: relative;
-    top:3rem;
-    text-align: center;
+  
     
 }
 .jumbotron-row{
-    gap: 3rem;
-    margin-top: 3rem;
+    gap: 1rem;
+    position: relative;
+    top:3rem;
 }
 .col-small{
     width: 30%;
+    text-align: left;
     /* DEBUG */
     /* background-color: rgb(119, 80, 80);
     height: 500px; */
