@@ -9,8 +9,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 0.7rem;
-    /* DEBUG */
-    background-color: grey;
+   
 }
 img{
     max-width: 100%;
@@ -32,17 +31,13 @@ ul{
     width: 70%;
     margin: 0 auto;
     max-width: 1200px;
-    /* DEBUG */
-    /* height: 500px; */
-    /* background-color: blueviolet; */
+
 }
 .container-small{
     width: 60%;
     margin: 0 auto;
     max-width: 1000px;
-    /* DEBUG */
-    /* height: 500px; */
-    background-color: white;
+   
 }
 h2{
     margin: 1.5rem 0;
@@ -127,15 +122,11 @@ header .container-big{
 .col-small{
     width: 30%;
     text-align: left;
-    /* DEBUG */
-    /* background-color: rgb(119, 80, 80);
-    height: 500px; */
+ 
 }
 .col-big{
     width:70%
-    /* DEBUG */
-    /* background-color: rgb(99, 28, 28);
-    height: 500px; */
+  
 }
 
 /* MAIN */
@@ -152,7 +143,7 @@ header .container-big{
 }
 .section-row1 .col{
     width: calc(100% / 3);
-    border: 1px solid grey;
+    border: 1px solid lightgray;
  
 }
 
@@ -179,14 +170,11 @@ header .container-big{
     margin-bottom: 2rem;
 }
 .section-row2{
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
    
     
 }
-/* .section-row2 :first-child{
-    text-align: center;
-    border-bottom: 1px solid grey;
-} */
+
 .section-row2 .button{
     text-align:right;
 }
@@ -209,7 +197,9 @@ header .container-big{
     gap: 2rem;
 }
 .section-row3 h3{font-size: 1.5rem;
+    font-weight: 600;
     margin-bottom: 1rem;
+
 
 }
 .section-row3 .button{
@@ -229,10 +219,26 @@ header .container-big{
 .section2-row1 .col, .section2-row2 .col{
     width: calc(100% / 3);
     margin-bottom: 1.5rem;
-    /* debug */
-    height: 300px;
-    background-color: aquamarine;
+   
 }
+.section2-row1 h3,.section2-row2 h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.section2-row2 {
+    margin-bottom: 4rem;
+}
+.section{
+    margin-bottom: 6rem;
+}
+.n-teams a{
+    display: inline-block;
+    margin-top: 2rem;
+    text-decoration: underline;
+    color: blue;
+}
+
 .row-team{
     /* debug */
     height: 70vh;
