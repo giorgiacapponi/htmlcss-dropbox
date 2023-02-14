@@ -46,12 +46,25 @@ ul{
 }
 h2{
     margin: 1.5rem 0;
+    font-size: 2rem;
+    font-weight: 600;
 }
+.card h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+h4{
+    font-weight: 600;
+
+}
+
 .button{
     color: white;
     padding: 0.5em 1.5em;
     background-color:#0061ff;
 }
+
 .button.large{
     display: inline-block;
     margin: 2rem 0;
@@ -126,28 +139,89 @@ header .container-big{
 }
 
 /* MAIN */
+.business-plan input {
+    vertical-align: middle;
+    margin-right: 1rem;
+}
 .one{
     margin-top: 5rem;
 }
 .section-row1{
-    gap:1rem;
+    gap:2rem;
     margin: 2rem 0;
 }
 .section-row1 .col{
     width: calc(100% / 3);
-    /* DEBUG */
-    height: 500px;
-    background-color: aqua;
-}
-.section-row2{
-    /* debug */
-    background-color: aqua;
-    height: 150px;
-}
-.section-row3{
-    gap: 2rem;
+    border: 1px solid grey;
+ 
 }
 
+.card-top{padding: 1em;
+    text-align: center;
+}
+.card-middle{
+    padding: 2em;
+}
+.card-middle .button{
+    padding: .5rem 2.8rem;
+    display: inline-block;
+    margin: 1.5rem 0;
+}
+.card-middle li{
+    margin: 1rem 0;
+}
+.card-middle hr{
+    width: 20%;
+    margin: 1rem 0;
+}
+.card-middle .month{
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+.section-row2{
+    border: 1px solid grey;
+   
+    
+}
+/* .section-row2 :first-child{
+    text-align: center;
+    border-bottom: 1px solid grey;
+} */
+.section-row2 .button{
+    text-align:right;
+}
+.section-row2 h3{
+    display: inline-block;
+}
+.section-row2 h4{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.section-row2 p{
+    width:60%;
+}
+.cta{
+    padding: 1.5rem 1.5rem;
+}
+.section-row3{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    gap: 2rem;
+}
+.section-row3 h3{font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+.section-row3 .button{
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    color:rgb(60, 59, 59);
+}
+.section-row3 .col-small{
+    padding-top: 3rem;
+}
 .section2-row1, .section2-row2{
     gap: 1.5rem;
 
