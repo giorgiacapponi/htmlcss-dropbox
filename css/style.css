@@ -231,6 +231,7 @@ header .container-big{
 }
 .section{
     margin-bottom: 6rem;
+    margin-top: 6rem;
 }
 .n-teams a{
     display: inline-block;
@@ -243,30 +244,61 @@ header .container-big{
     /* debug */
     height: 70vh;
 }
+.row-team>div{
+    width: calc(100vw / 3 );
+}
 
 .row-team .col-left, .row-team .col-right{
-    width: 30%;
     flex-wrap: wrap;
-    /* debug */
-    /* height: 400px; */
-    background-color: blue;
+    background-size: cover;
     
-   
+}
+.logo1{
+    background-color: #a2d39b;
+}
+.logo2{
+    background-color: #61082b;
+}
+.logo3{
+    background-color: #0093ce;
+}
+.logo4{
+    background-color: #ff1c1c;
+}
+.logo5{
+    background-color: #d5001f;
+}
+.logo6{
+    background-color: #b4d0e7;
+}
+.logo7{
+    background-color: #0d2481;
+}
+.logo8{
+    background-color: #ffd830;
 }
 .row-team .col-middle{
-    width: 40%;
-    /* debug */
-    /* height: 400px; */
-    background-color: red;
+    background-color:#f5f5f5;
+    padding: 2rem;
 }
+.col-middle img{
+    width: 200px;
+    margin-bottom: 2rem;
+}
+.col-middle p{
+    margin: 2rem 0;
+}
+.col-middle hr{
+    width: 20%;
+}
+
 .row-team .card{
     text-align: center;
     height: 35vh;
     line-height: 35vh;
     padding: 2rem;
     width: calc(100% / 2);
-    /* debug */
-    border: 1px dashed black;
+    
 }
 
     
@@ -274,23 +306,43 @@ header .container-big{
 .bottom-container-team{
     background-color: #b4d0e7;
 }
+.purple{
+    color:#61082b;
+}
+.bottom-container-team a{
+    background-color:white;
+    color: black;
+}
 .bottom-container-team .container-small{
     padding: 3rem 0;
     justify-content: space-between;
     align-items: center;
 }
+.faq li{
+    font-weight: 600;
+    padding: 2rem 0;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
 
 /* FOOTER */
 footer{
-    background-color:darkslategray ;
+    background-color:black ;
     padding: 3rem 0;
+    color: white;
+}
+footer h3{
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+footer li{
+    margin-bottom: 1rem;
 }
 .row-footer{
     gap: 1.5rem;
 }
 .row-footer .col{
     width:calc(100% / 5);
-    /* debug */
-    height: 400px;
-    border: 1px solid red;
+    padding-top: 1rem;
+    
 }
