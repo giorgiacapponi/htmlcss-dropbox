@@ -331,12 +331,21 @@ header .container-big{
     text-decoration: underline;
     color: blue;
 }
-
-.row-team{
-    height: 70vh;
+.container-team{
+    height: calc(100vw / 3);
 }
+
 .row-team>div{
     width: calc(100vw / 3 );
+
+}
+.row-team .card{
+    text-align: center;
+    height: calc(100vw / 6);
+    line-height: calc(100vw / 6);
+    padding: 2rem;
+    width: calc(100% / 2);
+    
 }
 
 .row-team .col-left, .row-team .col-right{
@@ -386,16 +395,6 @@ header .container-big{
 .col-middle hr{
     width: 20%;
 }
-
-.row-team .card{
-    text-align: center;
-    height: 35vh;
-    line-height: 35vh;
-    padding: 2rem;
-    width: calc(100% / 2);
-    
-}
-
 .bottom-container-team{
     background-color: #b4d0e7;
 }
